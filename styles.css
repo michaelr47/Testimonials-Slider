@@ -30,3 +30,10 @@ The designs were created to the following widths:
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
