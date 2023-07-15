@@ -37,3 +37,30 @@ body {
 .hidden {
     display: none;
 }
+
+main {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    z-index: -1;
+}
+
+.bottomLeftCurve {
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+}
+
+.pattern {
+    top: 60px;
+    right: 80px;
+}
+.middleQuote {
+    top: 35%;
+    left: 17%;
+}
+.imgContainer {
+    text-align: right;
+}
