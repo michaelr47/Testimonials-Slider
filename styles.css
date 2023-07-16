@@ -30,16 +30,20 @@ The designs were created to the following widths:
     box-sizing: border-box;
 }
 
-body {
+body, html {
     min-height: 100vh;
 }
 
-.hidden {
-    display: none;
-}
 
 main {
     position: relative;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .absolute {
@@ -58,9 +62,33 @@ main {
     right: 80px;
 }
 .middleQuote {
-    top: 35%;
+    top: 30%;
     left: 17%;
 }
 .imgContainer {
-    text-align: right;
+    position: relative;
+}
+
+.prevBtn, .nextBtn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.prevBtn {
+    left: 20%;
+}
+.nextBtn {
+    left: 25%;
+}
+.hidden {
+    display: none;
+}
+
+.testimony-Header {
+    width: 600px;
+    margin: 3rem 3rem 0px;
+   
+}
+.testimonyContent {
+    z-index: 1;
 }
