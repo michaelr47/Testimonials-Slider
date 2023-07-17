@@ -25,6 +25,11 @@ The designs were created to the following widths:
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 300, 500, 700 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+:root {
+    --darkBlue: hsl(240, 38%, 20%);
+    --grayishBlue:  hsl(240, 18%, 77%);
+}
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +46,21 @@ main {
     position: relative;
 }
 
+h1 {
+    font-weight: 300;
+}
+
+.nameAndOcc {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.nameAndOcc span {
+    color: var(--grayishBlue);
+    font-weight: normal;
+    margin: 5px;
+}
 .testimonial {
     display: flex;
     align-items: center;
@@ -64,7 +84,7 @@ main {
     right: 80px;
 }
 .middleQuote {
-    top: 30%;
+    top: 27%;
     left: 17%;
 }
 .imgContainer {
