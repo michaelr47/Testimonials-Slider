@@ -66,6 +66,7 @@ h1 {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+  
 }
 
 .absolute {
@@ -89,6 +90,7 @@ h1 {
 }
 .imgContainer {
     position: relative;
+
 }
 
 .prevBtn, .nextBtn {
@@ -119,7 +121,8 @@ h1 {
 .testimony-Header {
     width: 600px;
     margin: 3rem 3rem 0px;
-   
+    z-index: 2;
+    
 }
 .testimonyContent {
     z-index: 1;
@@ -127,4 +130,9 @@ h1 {
 
 .tanyaImage {
     box-shadow: 0px 25px 25px 5px rgba(0,0,0, .2);
+}
+
+.prevBtn:hover, .nextBtn:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
 }
