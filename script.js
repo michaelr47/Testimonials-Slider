@@ -9,3 +9,14 @@
 // }
 
 // displayImages(images);
+
+function changeImage(img) {
+    let index = 0;
+    if (index === 0) {
+        // return tanya
+
+    }
+
+    // otherwise 
+        // append next index 
+}
