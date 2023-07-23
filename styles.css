@@ -50,13 +50,16 @@ h1 {
     font-weight: 300;
 }
 
-.nameAndOcc {
+.personContent {
+    margin: 1rem 0px 0px;
+}
+.name {
     font-weight: 700;
     font-size: 1.2rem;
     margin: 5px;
 }
 
-.nameAndOcc span {
+.occupation {
     color: var(--grayishBlue);
     font-weight: normal;
     margin: 5px;
@@ -128,8 +131,11 @@ h1 {
     z-index: 1;
 }
 
-.tanyaImage {
+.profileImage {
     box-shadow: 0px 25px 25px 5px rgba(0,0,0, .2);
+    width: 500px;
+    height: 500px;
+
 }
 
 .prevBtn:hover, .nextBtn:hover {
