@@ -142,3 +142,25 @@ h1 {
     cursor: pointer;
     background-color: whitesmoke;
 }
+
+@keyframes rightToLeft {
+    from {
+        transform: translateX(30px);
+        opacity: .7;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes leftToRight {
+    from {
+        transform: translateX(-30px);
+        opacity: .7;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

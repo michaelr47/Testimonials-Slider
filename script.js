@@ -25,11 +25,15 @@ const testimonies = [
     imageURL: "./images/image-john.jpg",
   },
 ];
-
+// dom elements to iterate through
+const elements = [quote, personName, occupation, img];
+// changes to previous testimony
 function changeToPrevImage() {
   slidingIdx--;
 
-
+  elements.map(el => {
+    el.style.animation = 'rightToLeft 1.5s';
+  })
 
   if (slidingIdx < 0) {
     slidingIdx = testimonies.length - 1;
@@ -41,10 +45,13 @@ function changeToPrevImage() {
   img.src              = testimonies[slidingIdx].imageURL;
 
 }
-
+// changes to next testimony
 function changeToNextImage() {
   slidingIdx++;
-
+  elements.map(el => {
+    el.style.animation = 'leftToRight 1.5s';
+  })
+  
   if (slidingIdx === testimonies.length) {
     slidingIdx = 0;
   }
@@ -54,6 +61,6 @@ function changeToNextImage() {
   occupation.innerText = testimonies[slidingIdx].occupation;
   img.src              = testimonies[slidingIdx].imageURL;
 }
-
+//event listeners on buttons
 prevBtn.addEventListener("click", changeToPrevImage);
 nextBtn.addEventListener("click", changeToNextImage);
