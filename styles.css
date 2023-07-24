@@ -57,12 +57,14 @@ h1 {
     font-weight: 700;
     font-size: 1.2rem;
     margin: 5px;
+    display: inline-block;
 }
 
 .occupation {
     color: var(--grayishBlue);
     font-weight: normal;
     margin: 5px;
+    display: inline-block;
 }
 .testimonial {
     display: flex;
