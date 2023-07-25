@@ -64,3 +64,6 @@ function changeToNextImage() {
 //event listeners on buttons
 prevBtn.addEventListener("click", changeToPrevImage);
 nextBtn.addEventListener("click", changeToNextImage);
+
+
+// add button disabled after reaching limit for both prev and next btns

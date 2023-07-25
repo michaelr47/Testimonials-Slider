@@ -71,7 +71,7 @@ h1 {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  
+
 }
 
 .absolute {
@@ -95,7 +95,7 @@ h1 {
 }
 .imgContainer {
     position: relative;
-
+    z-index: -1;
 }
 
 .prevBtn, .nextBtn {
@@ -131,6 +131,7 @@ h1 {
 }
 .testimonyContent {
     z-index: 1;
+    
 }
 
 .profileImage {
@@ -165,4 +166,21 @@ h1 {
         transform: translateX(0px);
         opacity: 1;
     }
+}
+
+
+@media (width < 1300px) {
+    .imgContainer {
+        margin-right: 5rem;
+   }
+   .testimony-Header {
+    margin-left: 5rem;
+   }
+   .profileImage {
+    width: 450px;
+    height: 450px;
+   }
+   h1 {
+    font-size: 1.6rem;
+   }
 }
