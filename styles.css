@@ -95,7 +95,7 @@ h1 {
 }
 .imgContainer {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .prevBtn, .nextBtn {
@@ -110,6 +110,7 @@ h1 {
     border: none;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+
 }
 .nextBtn {
     left: 25.6%;
@@ -148,7 +149,7 @@ h1 {
 
 @keyframes rightToLeft {
     from {
-        transform: translateX(30px);
+        transform: translateX(50px);
         opacity: .7;
     }
     to {
@@ -159,7 +160,7 @@ h1 {
 
 @keyframes leftToRight {
     from {
-        transform: translateX(-30px);
+        transform: translateX(-50px);
         opacity: .7;
     }
     to {
@@ -170,6 +171,7 @@ h1 {
 
 
 @media (width < 1300px) {
+
     .imgContainer {
         margin-right: 5rem;
    }
@@ -179,6 +181,13 @@ h1 {
    .profileImage {
     width: 450px;
     height: 450px;
+   }
+   .pattern {
+    width: 550px;
+   }
+   .middleQuote {
+    width: 100px;
+    top: 35%;
    }
    h1 {
     font-size: 1.6rem;
