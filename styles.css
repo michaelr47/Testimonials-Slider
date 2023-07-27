@@ -91,7 +91,8 @@ h1 {
 }
 .middleQuote {
     top: 27%;
-    left: 17%;
+    width: 100px;
+    left: 18%;
 }
 .imgContainer {
     position: relative;
@@ -126,13 +127,13 @@ h1 {
 
 .testimony-Header {
     width: 600px;
-    margin: 3rem 3rem 0px;
+    /* margin: 3rem 3rem 0px; */
     z-index: 2;
     
 }
 .testimonyContent {
     z-index: 1;
-    
+    width: 550px;
 }
 
 .profileImage {
@@ -171,25 +172,31 @@ h1 {
 
 
 @media (width < 1300px) {
-
+    .testimonyContent {
+        margin: 0px 1rem;
+        width: 500px;
+    }
     .imgContainer {
         margin-right: 5rem;
    }
-   .testimony-Header {
-    margin-left: 5rem;
-   }
+
    .profileImage {
     width: 450px;
     height: 450px;
    }
    .pattern {
     width: 550px;
+    right: 150px;
+
    }
+
    .middleQuote {
     width: 100px;
     top: 35%;
+    left: 150px;
    }
    h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
    }
 }
