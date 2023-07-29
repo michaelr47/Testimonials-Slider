@@ -189,15 +189,16 @@ h1 {
    .pattern {
         width: 550px;
         right: 50px;
+        top: 15%;
    }
 
    .middleQuote {
         width: 100px;
         top: 35%;
-        left: 150px;
+        left: 220px;
    }
    h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-right: 1.5rem;
    }
 }
@@ -217,11 +218,13 @@ h1 {
         text-align: center;
     }
     .testimony-Header {
-        padding: 3rem;
+        /* padding: 2rem; */
+        margin-right: 10rem;
+        width: 500px;
     }
     
     .middleQuote {
-        top: 67.5%;
+        top: 58%;
         left: 50%;
         width: 80px;
     }
@@ -256,7 +259,32 @@ h1 {
    
 }
 
+@media (width <= 768px) {
+    .pattern {
+        right: 40px;
+        top: 5%;
+        width: 475px;
+    }
+    .testimony-Header { padding: 1rem; }
+    
+    .testimonyContent {
+        text-align: center;
+        width: 550px;
+        margin: 0px;
+      
+    }
+    .attribution {
+        margin: 2rem;
+    }
+    .middleQuote {
+        left: 45%;
+        top: 55%;
+    }
+}
 
+@media  (width <= 550px) {
+    
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
