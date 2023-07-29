@@ -171,9 +171,11 @@ h1 {
 
 
 @media (width < 1300px) {
+   
     .testimonyContent {
         margin: 0px 1rem;
         width: 500px;
+        padding: 3rem;
     }
     .imgContainer {
         margin-right: 2rem;
@@ -214,6 +216,9 @@ h1 {
         order: 1;
         text-align: center;
     }
+    .testimony-Header {
+        padding: 3rem;
+    }
     
     .middleQuote {
         top: 67.5%;
@@ -224,6 +229,7 @@ h1 {
     .profileImage {
         width: 425px;
         height: 425px;
+        margin-left: 8rem;
     }
 
     .pattern {
@@ -238,12 +244,16 @@ h1 {
     }
     
     .prevBtn {
-        left: 40%;
+        left: 52%;
+        z-index: 1;
+
     }
 
     .nextBtn {
-        left: 53%;
+        left: 62%;
+        z-index: 1;
     }
+   
 }
 
 
