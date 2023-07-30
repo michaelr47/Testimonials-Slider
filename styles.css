@@ -265,6 +265,13 @@ h1 {
         top: 5%;
         width: 475px;
     }
+    
+    .profileImage {
+        margin-left: 5rem;
+        width: 375px;
+        height: auto;
+    }
+
     .testimony-Header { padding: 1rem; }
     
     .testimonyContent {
@@ -279,6 +286,13 @@ h1 {
     .middleQuote {
         left: 45%;
         top: 55%;
+    }
+
+    .prevBtn {
+        left: 44%;
+    }
+    .nextBtn {
+        left: 57%;
     }
 }
 
