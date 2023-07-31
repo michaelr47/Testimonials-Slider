@@ -262,7 +262,7 @@ h1 {
 @media (width <= 768px) {
     .pattern {
         right: 40px;
-        top: 5%;
+        top: 2%;
         width: 475px;
     }
     
@@ -285,7 +285,7 @@ h1 {
     }
     .middleQuote {
         left: 45%;
-        top: 55%;
+        top: 60%;
     }
 
     .prevBtn {
@@ -296,9 +296,36 @@ h1 {
     }
 }
 
-@media  (width <= 550px) {
-    
+@media (width <= 485px) {
+    .testimonial {
+        padding: 4rem;
+    }
+    .profileImage {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+        width: 325px;
+    }
+    .personContent {
+        margin-right: 8rem;
+    }
+
+    .pattern {
+        top: 5%;
+        width: 350px;
+    }
+    .middleQuote {
+        width: 50px;
+        top: 60%;
+    }
+    .testimonyContent {
+        width: 450px;
+    }
 }
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
