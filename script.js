@@ -36,8 +36,8 @@ function changeToPrevImage() {
   })
 
   if (slidingIdx < 0) {
-    slidingIdx = testimonies.length - 1;
-  }
+    slidingIdx = testimonies.length - 1; 
+  } 
 
   quote.innerText      = testimonies[slidingIdx].quote;
   personName.innerText = testimonies[slidingIdx].id;
@@ -54,7 +54,8 @@ function changeToNextImage() {
   
   if (slidingIdx === testimonies.length) {
     slidingIdx = 0;
-  }
+
+  } 
 
   quote.innerText      = testimonies[slidingIdx].quote;
   personName.innerText = testimonies[slidingIdx].id;
@@ -64,6 +65,3 @@ function changeToNextImage() {
 //event listeners on buttons
 prevBtn.addEventListener("click", changeToPrevImage);
 nextBtn.addEventListener("click", changeToNextImage);
-
-
-// add button disabled after reaching limit for both prev and next btns
