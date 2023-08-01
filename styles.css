@@ -105,7 +105,7 @@ h1 {
 }
 
 .prevBtn {
-    left: 14.5%;
+    left: 15.5%;
     padding: 1rem 1.5rem;
     border: none;
     border-top-left-radius: 30px;
@@ -126,10 +126,9 @@ h1 {
 
 .testimony-Header {
     width: 600px;
-    /* margin: 3rem 3rem 0px; */
     z-index: 2;
-    
 }
+
 .testimonyContent {
     z-index: 1;
     width: 550px;
@@ -302,6 +301,7 @@ h1 {
     }
     .profileImage {
         width: 300px;
+        margin-left: 3rem;
     }
 
     h1 {
@@ -318,7 +318,7 @@ h1 {
     }
     .middleQuote {
         width: 50px;
-        top: 60%;
+        top: 55%;
     }
     .testimonyContent {
         width: 450px;
