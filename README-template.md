@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor ]()
-- Live Site URL: [Testimonial Slider Site]()
+- Solution URL: [Frontend Mentor Live Solution](https://www.frontendmentor.io/solutions/testimonials-slider-solution-2mVX6EQ4VJ)
+- Live Site URL: [Testimonial Slider Site](https://michaelr47.github.io/Testimonials-Slider/)
 
 ## My process
 
